@@ -28,7 +28,7 @@ elif menu == 'Data':
     st.write("### Datos de Producción")
     st.write("Aquí puedes ver los datos históricos de producción de petróleo y gas para el Campo Volve.")
     st.dataframe(df)
-
+#graficas
 elif menu == 'Plots':
     st.write("### Gráficos de Producción")
 
@@ -57,3 +57,4 @@ with open("requirements.txst","w") as f:
     f.write("streamlit\n")
     f.write("Pandas\n")
     f.write("plotly\n")
+    f.write("plotly.express\n")
