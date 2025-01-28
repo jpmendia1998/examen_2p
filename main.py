@@ -57,4 +57,4 @@ with open("requirements.txst","w") as f:
     f.write("streamlit\n")
     f.write("Pandas\n")
     f.write("plotly\n")
-    f.write("plotly.express\n")
+    f.write("plotly_express\n")
