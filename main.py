@@ -9,7 +9,6 @@ def load_data():
 
 df = load_data()
 
-# Título y descripción principal
 st.title('Historial de producción del Campo Volve')
 st.write("""
     El campo Volve ha sido una fuente importante de producción de petróleo y gas durante los últimos años. 
