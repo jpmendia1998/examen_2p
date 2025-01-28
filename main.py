@@ -53,7 +53,7 @@ elif menu == 'Plots':
     fig4 = px.bar(df_totals, x='WELL_BORE_CODE', y=['BORE_OIL_VOL', 'BORE_GAS_VOL', 'BORE_WAT_VOL'], title='Totales de Producción por Pozo')
     st.plotly_chart(fig4)
 
-with open("requirements.txst","w") as f:
+with open("requirements.txt", "w") as f:
     f.write("streamlit\n")
     f.write("Pandas\n")
     f.write("plotly\n")
